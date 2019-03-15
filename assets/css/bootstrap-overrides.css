@@ -1,0 +1,82 @@
+/* Global
+-------------------------*/
+
+body {
+    font-family: 'Pontano Sans', sans-serif;
+    padding-top: 40px;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+.uppercase {
+    text-transform: uppercase;
+  }
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+    background: #133C55;
+    color: #A4CDE9;
+  }
+
+header h1, header h2, header h3{
+  color: #EDF2F4;
+}
+
+.jumbotron{
+    background: #133C55;
+    color: #A4CDE9;
+}
+
+.btn {
+    background: #ED6A5A;
+    border: #2E5EAA;
+    color: white;
+}
+
+
+/* Nav
+-------------------------*/
+
+nav {
+    background: white;
+    /* z-index: 100; */
+}
+
+.nav-link{
+    color: #133c55;
+    font-weight: 600;
+}
+
+a {
+    color: #133c55;
+    font-weight: 600;
+  }
+a:hover {
+    color: #A4cdE9;
+}
+
+/* Education
+-------------------------*/
+.education {
+    /* background: #546A7B; */
+    color: white;
+    background: linear-gradient(rgba(19, 60, 85, .8), rgba(19, 60, 85, .5)), url(../images/NYC.jpg) no-repeat fixed;
+    background-size: cover;
+  }
+
+
+.contact-info a {
+    padding: 10px;
+    font-size: 24px;
+    color: #A4CDE9;
+}
+
+.contact-info a:hover{
+  color: white;
+}
